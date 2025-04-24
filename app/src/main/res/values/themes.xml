@@ -57,27 +57,11 @@
     <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
     <item name="android:statusBarColor">@android:color/transparent</item>
     <item name="postSplashScreenTheme">@style/AppTheme</item>
-    <item name="windowSplashScreenAnimatedIcon">@drawable/new_padding_4</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/new_padding_3</item>
     <item name="windowSplashScreenAnimationDuration">3000</item>
   </style>
 
   <!-- Legacy theme for backwards compatibility -->
   <style name="Theme.LemonnSplashTest" parent="AppTheme" />
   <style name="Base.Theme.LemonnSplashTest" parent="AppTheme" />
-
-    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
-    </style> -->
-
-    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
-    </style> -->
-
-    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
-    </style> -->
-
-    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
-        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
-    </style> -->
 </resources> 
