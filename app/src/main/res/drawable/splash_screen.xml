@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="#A707FF"/>
+    <item>
+        <bitmap
+            android:gravity="bottom|center_horizontal"
+            android:src="@drawable/footer_drawable"
+            android:tileMode="disabled"
+            android:width="210dp"
+            android:height="64dp"/>
+    </item>
+</layer-list> 

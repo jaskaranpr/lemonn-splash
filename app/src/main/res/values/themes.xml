@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+  <!-- Base application theme. -->
+  <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/newprimary</item>
+    <item name="android:statusBarColor">@color/newprimary</item>
+    <item name="android:editTextBackground">@drawable/edit_text</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+    <item name="android:textColor">#000000</item>
+    <item name="android:windowIsTranslucent">true</item>
+  </style>
+
+  <style name="AppTheme_Light" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Customize your theme here. -->
+    <item name="colorPrimary">@color/white</item>
+    <item name="android:statusBarColor">@color/white</item>
+    <item name="android:editTextBackground">@drawable/edit_text</item>
+    <item name="android:windowBackground">@color/white</item>
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">match_parent</item>
+  </style>
+
+  <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    <item name="android:windowBackground">@drawable/new_avd_lemonn</item>
+    <item name="android:windowFullscreen">true</item>
+    <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+    <item name="android:windowLayoutInDisplayCutoutMode">shortEdges</item>
+  </style>
+
+  <style name="AppTheme.MainActivity" parent="AppTheme" tools:ignore="DuplicateDefinition">
+    <item name="android:statusBarColor">@color/newprimary</item>
+    <item name="colorPrimaryDark">@color/newprimary</item>
+    <item name="android:windowBackground">@color/newprimary</item>
+    <item name="android:windowBackground">@drawable/background_splash</item>
+  </style>
+
+  <style name="NoAnimationBottomSheetDialog" parent="Theme.AppCompat.Dialog">
+    <item name="android:windowBackground">@android:color/transparent</item>
+    <item name="bottomSheetStyle">@style/Widget.Design.BottomSheet.Modal</item>
+    <item name="android:background">@android:color/transparent</item>
+    <item name="android:colorBackground">@android:color/transparent</item>
+    <item name="android:backgroundDimAmount">0.85</item>
+  </style>
+
+  <style name="Theme.NoAnimation" parent="Theme.AppCompat.Light.NoActionBar">
+    <!-- Disable enter/exit animations for the Activity window -->
+    <item name="android:windowEnterAnimation">@null</item>
+    <item name="android:windowExitAnimation">@null</item>
+    <item name="android:windowAnimationStyle">@null</item>
+  </style>
+
+  <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+    <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
+    <item name="android:statusBarColor">@android:color/transparent</item>
+    <item name="postSplashScreenTheme">@style/AppTheme</item>
+    <item name="windowSplashScreenAnimatedIcon">@drawable/new_padding_4</item>
+    <item name="windowSplashScreenAnimationDuration">3000</item>
+  </style>
+
+  <!-- Legacy theme for backwards compatibility -->
+  <style name="Theme.LemonnSplashTest" parent="AppTheme" />
+  <style name="Base.Theme.LemonnSplashTest" parent="AppTheme" />
+
+    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
+    </style> -->
+
+    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
+    </style> -->
+
+    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
+    </style> -->
+
+    <!-- <style name="Theme.App.Starting" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">@drawable/splash_screen</item>
+    </style> -->
+</resources> 
